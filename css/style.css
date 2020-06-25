@@ -4,6 +4,7 @@ footer {
 }
 
 #site-header {
+    margin-left: 1%;
     display: inline;
 }
 
@@ -14,17 +15,58 @@ footer {
 
 /* Link */
 a {
+    /* display: block; */
     color: black;
+    background-color: none;
+    padding: 8px;
 }
 
 a:link, a:visited {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
     background-color: aquamarine;
+    color: black;
 }
 
 a:active {
+    background-color: aqua;
+    color: black;
+}
+
+.active {
+    background-color: rgb(202, 255, 255);
+}
+
+
+/* List */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    /* display: inline; */
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+li a:active {
     background-color: aqua;
 }
