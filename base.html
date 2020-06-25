@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>
+            Dani Barstad - Developer / Musician
+        </title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div>
+            <h1 id="heading">DANI BARSTAD</h1>
+            
+            <span id="heading-dev-mus">
+                <a href="{% url 'developer' %}">DEVELOPER</a>
+                |
+                <a href="{% url 'musician' %}">MUSICIAN</a>
+            </span>
+        </div>
+
+        {% block content %}
+        {% endblock %}
+
+    </body>
+
+    <footer>
+        <a href="https://twitter.com/danibarstad">Twitter</a>
+        |
+        <a href="https://www.linkedin.com/in/danibarstad/">LinkedIn</a>
+        |
+        <a href="https://github.com/danibarstad/">GitHub</a>
+        ||
+        <a href="https://danibarstad.bandcamp.com/">Bandcamp</a>
+        |
+        <a href="https://soundcloud.com/danibarstad/">SoundCloud</a>
+    </footer>
+
+</html>
