@@ -70,3 +70,9 @@ li a:hover {
 li a:active {
     background-color: aqua;
 }
+
+
+#port-piece {
+    border: 10px solid black;
+    width: 10%;
+}
