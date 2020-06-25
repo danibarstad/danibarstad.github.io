@@ -1,0 +1,30 @@
+footer {
+    font-size: small;
+    text-align: center;
+}
+
+#site-header {
+    display: inline;
+}
+
+#site-header-nav {
+    float: right;
+}
+
+
+/* Link */
+a {
+    color: black;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aquamarine;
+}
+
+a:active {
+    background-color: aqua;
+}
