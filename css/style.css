@@ -12,10 +12,18 @@ footer {
     float: right;
 }
 
+#site-body-dev {
+    float: none;
+    margin: auto;
+}
+
+#site-footer-social {
+    margin: auto;
+}
+
 
 /* Link */
 a {
-    /* display: block; */
     color: black;
     background-color: none;
     padding: 8px;
@@ -78,13 +86,10 @@ li a:active {
     margin: 5px;
     padding: 75px 0;
     text-align: center;
+    float: none;
 }
 
 .social-icon {
-    width: 35px;
-    height: 35px;
-}
-
-#site-footer-social {
-    margin: auto;
+    width: 30px;
+    height: 30px;
 }
