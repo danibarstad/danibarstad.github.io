@@ -50,7 +50,6 @@ ul {
 }
 
 li {
-    /* display: inline; */
     float: right;
 }
 
@@ -72,7 +71,20 @@ li a:active {
 }
 
 
-#port-piece {
-    border: 10px solid black;
-    width: 10%;
+#port-piece{
+    border: 1px solid black;
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+    padding: 75px 0;
+    text-align: center;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+}
+
+#site-footer-social {
+    margin: auto;
 }
