@@ -21,6 +21,14 @@ footer {
     margin: auto;
 }
 
+#site-header-nav li a:hover {
+    /* text-decoration: underline; */
+    font-weight: 600;
+}
+
+b {
+    font-weight: 600;
+}
 
 /* Link */
 a {
@@ -83,10 +91,12 @@ li a:active {
     border: 1px solid black;
     width: 350px;
     height: 350px;
-    margin: 5px;
-    padding: 75px 0;
     text-align: center;
     float: none;
+}
+
+#port-piece-det {
+    padding: 20px;
 }
 
 .social-icon {
