@@ -16,14 +16,9 @@ footer {
     float: right;
 }
 
-/* #site-body-dev {
-    float: none;
-    margin: auto;
-} */
-
 #site-body-dev li a{
     opacity: 0.6;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 #site-body-dev li a:hover {
@@ -35,7 +30,6 @@ footer {
 }
 
 #site-header-nav li a:hover {
-    /* text-decoration: underline; */
     font-weight: 600;
 }
 
@@ -88,7 +82,7 @@ li a {
     text-align: center;
     padding: 12px 16px;
     text-decoration: none;
-    transition: 0.4s;
+    transition: 0.7s;
   }
 
 li a:hover {
