@@ -41,7 +41,6 @@ b {
 a {
     color: black;
     background-color: none;
-    padding: 8px;
 }
 
 a:link, a:visited {
@@ -104,10 +103,17 @@ iframe {
 
 #port-piece{
     /* border: 1px solid black; */
+    margin: 25px;
     background-color: rgb(202, 255, 255);
     width: 470px;
     height: 350px;
     text-align: center;
+}
+
+#port-piece a:hover{
+    background-color: aquamarine;
+    color: black;
+    /* border: 1% solid aquamarine; */
 }
 
 #port-piece-det {
