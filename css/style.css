@@ -110,11 +110,11 @@ iframe {
     text-align: center;
 }
 
-#port-piece a:hover{
-    background-color: aquamarine;
+#port-piece a:hover {
+    background-color: rgb(202, 255, 255);
     color: black;
-    /* border: 1% solid aquamarine; */
 }
+
 
 #port-piece-det {
     padding: 20px;
