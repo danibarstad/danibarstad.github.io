@@ -100,8 +100,7 @@ iframe {
     padding: 8px;
 }
 
-
-#port-piece{
+#port-piece {
     /* border: 1px solid black; */
     margin: 25px;
     background-color: rgb(202, 255, 255);
@@ -109,12 +108,6 @@ iframe {
     height: 350px;
     text-align: center;
 }
-
-#port-piece a:hover {
-    background-color: rgb(202, 255, 255);
-    color: black;
-}
-
 
 #port-piece-det {
     padding: 20px;
