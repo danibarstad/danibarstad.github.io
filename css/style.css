@@ -107,3 +107,15 @@ footer {
     width: 30px;
     height: 30px;
 }
+
+.portfolio-item {
+    margin: 10px;
+    max-width: 470px;
+    height: 350px;
+    /* text-align: center; */
+
+    background-color: rgb(202, 255, 255);
+    color: black;
+    transition: 0.7s;
+    opacity: .8;
+}
