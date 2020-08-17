@@ -11,6 +11,7 @@ b {
 #header-footer {
     float: right;
     margin: auto;
+    /* background-color: hsl(0, 0%, 97%); */
 }
 
 ul {
@@ -96,11 +97,16 @@ iframe {
     padding: 8px;
 }
 
+.container {
+    margin-top: 10px;
+}
+
 
 /* FOOTER */
 footer {
     font-size: small;
     text-align: center;
+    /* background: hsl(0, 0%, 97%); */
 }
 
 .social-icon {
@@ -112,6 +118,7 @@ footer {
     margin: 10px;
     max-width: 470px;
     height: 350px;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
     /* min-height: 350px; */
     /* text-align: center; */
 
