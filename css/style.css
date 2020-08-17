@@ -21,7 +21,7 @@ ul {
 }
 
 #header-footer li {
-    float: right;
+    float: left;
 }
 
 #header-footer li a {
@@ -119,4 +119,30 @@ footer {
     color: black;
     transition: 0.7s;
     opacity: .8;
+}
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+
+}
+
+#header-mobile {
+    float: left;
+    margin: auto;
+}
+
+#header-mobile li {
+    float: left;
+}
+
+#header-mobile li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
 }
