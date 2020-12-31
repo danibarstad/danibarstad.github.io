@@ -22,6 +22,7 @@ a:hover {
     background-color: #74f2ce;
     color: #000;
     text-decoration: none;
+    transition: 0.7s;
 }
 
 ul {
