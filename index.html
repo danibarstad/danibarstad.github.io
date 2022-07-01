@@ -6,18 +6,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <meta property="og:url" content="https://danibarstad.com">
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Dani Barstad - Developer">
-        <meta property="og:description" content="Software developer in the Greater Austin, Texas area.">
-        <meta property="og:image" content="img/twitter_card.png">
-        <meta property="og:image:type" content="image/png">
-
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:creator" content="@danibarstad">
-        <meta name="twitter:title" content="Dani Barstad - Developer">
-        <meta name="twitter:image:src" content="https://raw.githubusercontent.com/danibarstad/danibarstad.github.io/master/img/twitter_card.png">
-
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -36,6 +24,7 @@
     </head>
 
     <body>
+
         <header>
             <!-- PAGE HEADER -->
             <div class="container-fluid" style="background-color: hsl(0, 0%, 97%)">
@@ -44,245 +33,161 @@
                         <h1 id="site-header"><b>dani</b>barstad</h1>
                     </div>
 
-                    <!-- DESKTOP VIEW -->
-                    <nav class="col-sm-auto" id="content-desktop">
-                        <span id="header-footer">
-                            <ul>
-                                <li class="active" style="width: 100px;">
-                                    <a href="projects.html">
-                                        projects
-                                    </a>
-                                </li>
-                                <li class="inactive" style="width: 100px;">
-                                    <a href="about.html">
-                                        about
-                                    </a>
-                                </li>
-                                <li class="inactive" style="width: 100px;">
-                                    <a href="contact.html">
-                                        contact
-                                    </a>
-                                </li>
-                                <!-- <li class="inactive" style="width: 100px;">
-                                    <a href="musician.html">
-                                        musician
-                                    </a>
-                                </li> -->
-                            </ul>
-                        </span>
-                    </nav>
-
-                    <!-- MOBILE VIEW -->
-                    <nav class="col-sm-auto" id="content-mobile">
-                        <span id="header-mobile">
-                            <ul>
-                                <li class="active">
-                                    <a href="projects.html">
-                                        projects
-                                    </a>
-                                </li>
-                                <li class="inactive">
-                                    <a href="about.html">
-                                        about
-                                    </a>
-                                </li>
-                                <li class="inactive">
-                                    <a href="contact.html">
-                                        contact
-                                    </a>
-                                </li>
-                                <!-- <li class="inactive">
-                                    <a href="musician.html">
-                                        musician
-                                    </a>
-                                </li> -->
-                            </ul>
-                        </span>
-                    </nav>
+                    <span id="header-footer">
+                        <ul>
+                            <li>
+                                <a target="_blank" href="https://twitter.com/danibarstad">
+                                    <img class="social-icon" src="img\twitter.png">
+                                </a>
+                            </li>
+                            
+                            <li>
+                                <a target="_blank" href="https://danibarstad.bandcamp.com/">
+                                    <img class="social-icon" src="img/bandcamp.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://github.com/danibarstad/">
+                                    <img class="social-icon" src="img/github.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/danibarstad/">
+                                    <img class="social-icon" src="img/linkedin.png">
+                                </a>
+                            </li>
+                            <!-- <li>
+                                <a target="_blank" href="https://soundcloud.com/danibarstad/">
+                                    <img class="social-icon" src="img/soundcloud.png">
+                                </a>
+                            </li> -->
+                        </ul>
+                    </span>
                 </div>
             </div>
         </header>
 
-
         <div class="container">
-            <div class="row">
-                <div class="portfolio-item">
-                    <div id="port-piece-det">
-                        <h4>
-                            <b style="font-weight: 700;">
-                                SCOTTIFY
-                            </b>
-                        </h4><br>
-                        <p>
-                            Returns a random song by someone named Scott from the Spotify API.
-                        </p>
-                        <p style="color: rgb(71, 71, 71);">
-                            <i>HTML, CSS, JavaScript, Node.js</i>
-                        </p>
-                    </div>
-                    <span id="header-footer">
-                        <ul>
-                            <li>
-                                <a target="_blank" href="https://github.com/danibarstad/Scottify">
-                                    <img class="social-icon" src="img/github.png">
-                                    GitHub
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://scottify-app.herokuapp.com/">
-                                    <img class="social-icon" src="img/web.png">
-                                    Live Site
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </div>
-                <div class="portfolio-item">
-                    <div id="port-piece-det">
-                        <h4>
-                            <b style="font-weight: 700;">
-                                RESTROOM RATER
-                            </b>
-                        </h4><br>
-                        <p>
-                            Django web application where users can search for establishments and rate their bathrooms using the Yelp API.
-                        </p>
-                        <p style="color: rgb(71, 71, 71);">
-                            <i>Python, Django, HTML, CSS, Bootstrap</i>
-                        </p>
-                    </div>
-                    <span id="header-footer">
-                        <ul>
-                            <li>
-                                <a target="_blank" href="https://github.com/danibarstad/RestroomRater">
-                                    <img class="social-icon" src="img/github.png">
-                                    GitHub
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://restroomrater.herokuapp.com/">
-                                    <img class="social-icon" src="img/web.png">
-                                    Live Site
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </div>
-                <div class="portfolio-item">
-                    <div id="port-piece-det">
-                        <h4>
-                            <b style="font-weight: 700;">
-                                BAND DISCOGRAPHY ORGANIZER
-                            </b>
-                        </h4><br>
-                        <p>
-                            Windows form application for musicians to input bands, albums, and musical tracks to organize their discographies.
-                        </p>
-                        <p style="color: rgb(71, 71, 71);">
-                            <i>C#, .NET, SQL Server, Visual Studio 2019</i>
-                        </p>
-                    </div>
-                    <span id="header-footer">
-                        <ul>
-                            <li>
-                                <a target="_blank" href="https://github.com/danibarstad/band_organizer">
-                                    <img class="social-icon" src="img/github.png">
-                                    GitHub
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </div>
-                <div class="portfolio-item">
-                    <div id="port-piece-det">
-                        <h4>
-                            <b style="font-weight: 700;">
-                                MAGIC: THE GATHERING DECK BUILDER
-                            </b>
-                        </h4><br>
-                        <p>
-                            Django web application where users can create card decks using a Magic: The Gathering API.
-                        </p>
-                        <p style="color: rgb(71, 71, 71);">
-                            <i>Python, Django, HTML, CSS</i>
-                        </p>
-                    </div>
-                    <span id="header-footer">
-                        <ul>
-                            <li>
-                                <a target="_blank" href="https://github.com/danibarstad/MtG_DeckBuilder">
-                                    <img class="social-icon" src="img/github.png">
-                                    GitHub
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://magicthegathering-deckbuilder.herokuapp.com/">
-                                    <img class="social-icon" src="img/web.png">
-                                    Live Site
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </div>
-                <div class="portfolio-item">
-                    <div id="port-piece-det">
-                        <h4>
-                            <b style="font-weight: 700;">
-                                DUNGEONS & DRAGONS CHARACTER MANAGEMENT
-                            </b>
-                        </h4><br>
-                        <p>
-                            GUI Application for people running a Dungeons & Dragons campaign to keep multiple characters in order.
-                        </p>
-                        <p style="color: rgb(71, 71, 71);">
-                            <i>Java, SQLite</i>
-                        </p>
-                    </div>
-                    <span id="header-footer">
-                        <ul>
-                            <li>
-                                <a target="_blank" href="https://github.com/danibarstad/DnD_CharacterManagement">
-                                    <img class="social-icon" src="img/github.png">
-                                    GitHub
-                                </a>
-                            </li>
-                        </ul>
-                    </span>
-                </div>
-            </div>
-        </div>
+            <!-- "Dogs Don't Know What Weather Is" by Braver -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/track=1422719998/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
 
-        <footer>
-            <span id="header-footer">
-                <ul>
-                    <!-- <li>
-                        <a target="_blank" href="https://soundcloud.com/danibarstad/">
-                            <img class="social-icon" src="img/soundcloud.png" alt="Soundcloud icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://danibarstad.bandcamp.com/">
-                            <img class="social-icon" src="img/bandcamp.png" alt="Bandcamp icon">
-                        </a>
-                    </li> -->
-                    <li>
-                        <a target="_blank" href="https://twitter.com/danibarstad/">
-                            <img class="social-icon" src="img/twitter.png" alt="Twitter icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/danibarstad/">
-                            <img class="social-icon" src="img/linkedin.png" alt="LinkedIn icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://github.com/danibarstad/">
-                            <img class="social-icon" src="img/github.png" alt="GitHub icon">
-                        </a>
-                    </li>
-                </ul>
-            </span>
-        </footer>
+            <!-- Open Mic At The Lo-Fi, Vol. 1" by Justin Courtney Pierre -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=2567907505/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Super Rare Unreleased Tracks by The Ventures" by Bandit -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3932906934/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "8-bit Earth II Sessions" by daniBarstad -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=4115839493/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "8-bit Earth" by daniBarstad -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=988113315/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "8​-​bit Earth - Title Screen [LIVE]" by daniBarstad -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/track=2441963390/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "The Adventure Zone [8​-​bit​]​, vol. 1" by daniBarstad -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=2610383753/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Déjà Vu [8​-​bit]" by daniBarstad -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/track=3959792688/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Double Ferrari [8​-​bit]" by daniBarstad -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/track=3372524107/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Positively Mental" by Triple Crossed -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3441906361/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Can't Make a Living" by Mall'd To Death -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3355211141/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "The Process Of Reaching Out" by Mall'd To Death -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3537465946/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "More than a Sinking Feeling" by Mall'd To Death -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=356396775/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- Who Needs You​/​Drones Split -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=2819606661/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Boss Rush" by Do a Barrel Roll! -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=1240503093/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Acoustic Videosongs" by Do a Barrel Roll! -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=960298742/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Closed Surgery" by Toothpaste -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=77767493/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Split" by Toothpaste -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=91953328/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Nothing But the Best of the Nothing Buts" by Toothpaste -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3389325988/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Louder Than Ever Theme" by daniBarstad -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/track=3801848292/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "I Hate Your Love Theme" by daniBarstad -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/track=3608850081/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Toast Fighter OST" by daniBarstad -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=992275465/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Split w/ Flare Up" by GIRL -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=491762235/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "demo, vol. 1" by GIRL -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=2866296947/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "demo, vol. 2" by GIRL -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3119188772/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "demo, vol. 3" by GIRL -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3205108385/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Terminally Chill" by The Terrordactyls -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=1313196168/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Unknown Terror 7" by The Terrordactyls -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=3379669075/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "Land of the Moshed" by The Terrordactyls -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=1115227831/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+
+            <!-- "The Terrordactyls" by The Terrordactyls -->
+            <iframe src="https://bandcamp.com/EmbeddedPlayer/album=2971226869/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless loading="lazy">
+            </iframe>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
