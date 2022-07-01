@@ -1,3 +1,10 @@
+:root {
+    --black: #000;
+    --dark: #74f2ce;
+    --mid: #7cffcb;
+    --light: #bffff1;
+}
+
 /* HEADER / FOOTER */
 b {
     font-weight: 600;
@@ -11,16 +18,20 @@ b {
 #header-footer {
     float: right;
     margin: auto;
-    /* background-color: hsl(0, 0%, 97%); */
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
 }
 
 a:link {
-    color: #000;
+    color: var(--black);
 }
 
 a:hover {
-    background-color: #74f2ce;
-    color: #000;
+    background-color: var(--dark);
+    color: var(--black);
     text-decoration: none;
     transition: 0.7s;
 }
@@ -38,7 +49,7 @@ ul {
 
 #header-footer li a {
     display: block;
-    color: black;
+    color: var(--black);
     text-align: center;
     padding: 12px 16px;
     text-decoration: none;
@@ -47,60 +58,16 @@ ul {
 
 #header-footer li a:hover {
     font-weight: 600;
-    background-color: #74f2ce;
-    color: black;
+    background-color: var(--dark);
+    color: var(--black);
 }
 
 #header-footer li a:active {
-    background-color: #7cffcb;
+    background-color: var(--mid);
 }
-
-.active {
-    background-color: #bffff1;
-}
-
-.inactive {
-    opacity: .7;
-}
-
 
 
 /* BODY */
-#port-piece {
-    margin: 10px;
-    max-width: 470px;
-    height: 350px;
-    text-align: center;
-}
-
-#port-piece-det {
-    padding: 20px;
-}
-
-.port-link {
-    margin: 10px;
-    background-color: rgb(202, 255, 255);
-    color: black;
-    transition: 0.7s;
-    opacity: .8;
-}
-
-.port-link:link, :visited {
-    text-decoration: none;
-    color: black;
-}
-
-.port-link:hover {
-    opacity: 1;
-    background-color: #74f2ce;
-    color: black;
-}
-
-.port-link:active {
-    background-color: #bffff1;
-    color: black;
-}
-
 iframe {
     border: 0;
     width: 350px;
@@ -110,57 +77,4 @@ iframe {
 
 .container {
     margin-top: 10px;
-}
-
-
-/* FOOTER */
-footer {
-    font-size: small;
-    text-align: center;
-    /* background: hsl(0, 0%, 97%); */
-}
-
-.social-icon {
-    width: 30px;
-    height: 30px;
-}
-
-.portfolio-item {
-    margin: 10px;
-    max-width: 470px;
-    height: 350px;
-    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-    /* min-height: 350px; */
-    /* text-align: center; */
-
-    background-color: rgb(202, 255, 255);
-    color: black;
-    transition: 0.7s;
-    opacity: .8;
-}
-
-#content-desktop {display: block;}
-#content-mobile {display: none;}
-
-@media screen and (max-width: 768px) {
-
-    #content-desktop {display: none;}
-    #content-mobile {display: block;}
-
-}
-
-#header-mobile {
-    float: left;
-    margin: auto;
-}
-
-#header-mobile li {
-    float: left;
-}
-
-#header-mobile li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px;
 }
