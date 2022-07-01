@@ -78,3 +78,16 @@ iframe {
 .container {
     margin-top: 10px;
 }
+
+footer {
+    color: var(--black);
+    text-align: center;
+}
+
+footer a:visited {
+    color: var(--black)
+}
+
+footer a:active {
+    background-color: var(--mid);
+}
