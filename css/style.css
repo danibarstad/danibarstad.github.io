@@ -1,4 +1,5 @@
 :root {
+    --white: rgb(250, 248, 248);
     --black: #000;
     --dark: #74f2ce;
     --mid: #7cffcb;
@@ -8,6 +9,10 @@
 /* HEADER / FOOTER */
 b {
     font-weight: 600;
+}
+
+.container-fluid {
+    background-color: var(--white);
 }
 
 #site-header {
